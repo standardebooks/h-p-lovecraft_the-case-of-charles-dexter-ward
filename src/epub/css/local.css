@@ -25,3 +25,22 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
+
+blockquote table{
+	border-spacing: 2em;
+	font-variant: small-caps;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+blockquote [epub|type~="z3998:verse"]{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+[epub|type~="z3998:verse"] p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
