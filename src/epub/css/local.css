@@ -44,3 +44,14 @@ blockquote [epub|type~="z3998:verse"]{
 	text-align: center;
 	text-indent: 0;
 }
+
+img{
+	display: block;
+	max-height: 3em;
+}
+
+img:last-of-type{
+	display: block;
+	margin: auto;
+	max-height: 8em;
+}
