@@ -56,16 +56,8 @@ img:last-of-type{
 	max-height: 8em;
 }
 
-#chapter-3 blockquote:nth-of-type(2){
-	font-size: 0.9em;
-}
-
 #chapter-3 blockquote:nth-of-type(2) p:first-of-type{
 	text-align: center;
-}
-
-#chapter-4 blockquote:nth-of-type(-n+2){
-	font-size: 0.9em;
 }
 
 #chapter-4 blockquote:nth-of-type(-n+2) p:first-of-type{
