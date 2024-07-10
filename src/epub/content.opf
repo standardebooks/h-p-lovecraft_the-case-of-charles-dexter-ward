@@ -52,9 +52,11 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2010100920</meta>
 		<meta property="se:subject">Horror</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A young scholar delves into his family past and fiinds more than he was prepared for.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Charles Dexter Ward is the heir of a wealthy family from Providence, Rhode Island; his family wealth and support allows him to dedicate himself to scholarly pursuits. As a young man, he starts to research antiquarianism and architecture.&lt;/p&gt;
+			&lt;p&gt;During his geneological researches, he comes across Joseph Curwen, an early 18th century man whom Ward discovers to be related to. After delving into Curwen’s life and work, Ward realizes the dead sorcerer is more powerful than he originally thought.&lt;/p&gt;
+			&lt;p&gt;Written in 1928 but never published during &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;H. P. Lovecraft’s&lt;/a&gt; life, &lt;i&gt;The Case of Charles Dexter Ward&lt;/i&gt; was first serialized in &lt;i&gt;Weird Tales&lt;/i&gt; in 1941, and published later, in an expanded edition, in 1943. This edition is based on the original &lt;i&gt;Weird Tales&lt;/i&gt; publication.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73547</dc:source>
