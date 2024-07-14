@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Capitalization seems to be correct.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
