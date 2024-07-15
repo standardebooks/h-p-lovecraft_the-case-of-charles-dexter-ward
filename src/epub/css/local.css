@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* letters */
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -26,6 +27,13 @@ footer{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+/* End of letters */
+
+/* side-by-side text in chapter 5 */
 blockquote table{
 	border-spacing: 2em;
 	font-variant: small-caps;
@@ -34,34 +42,36 @@ blockquote table{
 	text-align: center;
 }
 
+img{
+	display: block;
+	max-height: 3em;
+}
+/* End of side-by-side text in chapter 5 */
+
+/* Incantation "verses" */
 [epub|type~="z3998:verse"] p{
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
 }
+/* End of Incatation "verses" */
 
-img{
-	display: block;
-	max-height: 3em;
-}
-
+/* Handwritten note in chapter 5 */
 img:last-of-type{
 	display: block;
 	margin: auto;
 	max-height: 8em;
 }
+/* End of handwritten note in chapter 5 */
 
+/* Newspaper articles */
 #chapter-3 blockquote:nth-of-type(2) p:first-of-type,
 #chapter-4 blockquote:nth-of-type(-n+2) p:first-of-type,
 #chapter-5 blockquote:nth-of-type(3) p:first-of-type{
 	text-align: center;
 }
+/* End of newspaper articles */
 
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
-}
-
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
 }
