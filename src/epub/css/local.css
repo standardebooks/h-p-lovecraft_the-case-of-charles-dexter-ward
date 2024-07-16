@@ -33,13 +33,26 @@ footer{
 }
 /* End of letters */
 
-/* side-by-side text in chapter 5 */
-blockquote table{
-	border-spacing: 2em;
-	font-variant: small-caps;
-	margin-left: auto;
-	margin-right: auto;
+figure{
+	break-inside: avoid;
+	margin: 1em 40px;
 	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+/* side-by-side text in chapter 5 */
+#chapter-5 > div{
+	text-align: center;
+}
+
+#chapter-5 > div blockquote{
+	display: inline-block;
+	font-variant: small-caps;
 }
 
 img{
@@ -57,18 +70,14 @@ img{
 /* End of Incatation "verses" */
 
 /* Handwritten note in chapter 5 */
-img:last-of-type{
-	display: block;
-	margin: auto;
+#illustration-3 img{
 	max-height: 8em;
 }
 /* End of handwritten note in chapter 5 */
 
 /* Newspaper articles */
-#chapter-3 blockquote:nth-of-type(2) p:first-of-type,
-#chapter-4 blockquote:nth-of-type(-n+2) p:first-of-type,
-#chapter-5 blockquote:nth-of-type(3) p:first-of-type{
-	text-align: center;
+.newspaper header{
+	font-variant: small-caps;
 }
 /* End of newspaper articles */
 
