@@ -62,7 +62,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/73547</dc:source>
 		<dc:source>https://archive.org/details/Weird_Tales_v35n09_1941-05</dc:source>
 		<dc:source>https://archive.org/details/Weird_Tales_v35n10_1941-07_sas</dc:source>
-		<meta property="se:word-count">44902</meta>
+		<meta property="se:word-count">44901</meta>
 		<meta property="se:reading-ease.flesch">53.75</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Case_of_Charles_Dexter_Ward</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-p-lovecraft_the-case-of-charles-dexter-ward</meta>
