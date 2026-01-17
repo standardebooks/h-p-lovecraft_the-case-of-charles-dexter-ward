@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 440">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
 	<title>The titlepage for the Standard Ebooks edition of The Case of Charles Dexter Ward, by H. P. Lovecraft</title>
 	<style type="text/css">
 		text{
@@ -16,7 +16,8 @@
 			font-size: 70.17543793px;
 		}
 	</style>
-	<text class="title" x="700" y="130">THE CASE OF CHARLES</text>
-	<text class="title" x="700" y="230">DEXTER WARD</text>
-	<text class="author" x="700" y="390">H. P. LOVECRAFT</text>
+	<text class="title" x="700" y="130">THE CASE</text>
+	<text class="title" x="700" y="230">OF CHARLES</text>
+	<text class="title" x="700" y="330">DEXTER WARD</text>
+	<text class="author" x="700" y="490">H. P. LOVECRAFT</text>
 </svg>
