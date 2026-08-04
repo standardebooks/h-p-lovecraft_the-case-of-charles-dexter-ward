@@ -53,7 +53,7 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2010100920</meta>
 		<meta property="schema:genre">Horror</meta>
-		<dc:abstract>A young scholar delves into his family past and finds more than he bargained for.</dc:abstract>
+		<meta property="schema:abstract">A young scholar delves into his family past and finds more than he bargained for.</meta>
 		<dc:description>
 			&lt;p&gt;Charles Dexter Ward is the heir of a wealthy family from Providence, Rhode Island, whose family wealth allows him to dedicate himself to scholarly pursuits. As a young man, he starts to research antiquarianism and architecture.&lt;/p&gt;
 			&lt;p&gt;During his genealogical research, he comes across the name of Joseph Curwen, a man who lived in the early 18th century and to whom Ward discovers he is related. After delving into Curwen’s life and work, Ward realizes that the dead sorcerer is more powerful than he originally thought.&lt;/p&gt;
